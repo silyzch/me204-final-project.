@@ -1,4 +1,4 @@
-# ME204 Final Project: [Your project title]
+# ME204 Final Project: Growth Strategies Across Technology, Pharma, and Energy.
 
 
 | GitHub username                           | LSE ID            |
@@ -6,12 +6,14 @@
 | `[silyzch]`                              | `[250088575]`        |
 
 
-Remove the unused row if you work alone.
-Replace every `[bracketed]` placeholder once you fill it in.
 
 ## Overview
 
-[State your focused project question in one or two sentences.]
+This project investigates how companies in the Technology, Healthcare, and Energy sectors fund and sustain growth. Using financial statement data collected from the SEC EDGAR Company Facts API, it compares companies investment in R&D, profitability, and cash generation to understand how growth strategies differ across industries.
+
+The project aims to answer the following question:
+
+**How do Technology, Healthcare, and Energy companies differ in their strategies for funding growth, based on their investment in R&D, profitability, and free cash flow generation?**
 
 ## Data sources
 

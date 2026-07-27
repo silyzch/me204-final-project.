@@ -3,8 +3,7 @@
 
 | GitHub username                           | LSE ID            |
 | ----------------------------------------- | ----------------- |
-| `[username]`                              | `[LSE ID]`        |
-| `[second username, if working in a pair]` | `[second LSE ID]` |
+| `[silyzch]`                              | `[250088575]`        |
 
 
 Remove the unused row if you work alone.

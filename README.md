@@ -13,7 +13,7 @@ This project investigates how companies in the Technology, Healthcare, and Energ
 
 The project aims to answer the following question:
 
-**How do Technology, Healthcare, and Energy companies differ in their strategies for funding growth, based on their investment in R&D, profitability, and free cash flow generation?**
+**How do Technology, Healthcare, and Energy companies differ in their strategies for supporting future growth, based on their investment in R&D, profitability, and free cash flow generation?**
 
 ## Data sources
 

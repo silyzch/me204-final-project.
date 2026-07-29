@@ -19,7 +19,7 @@ The project aims to answer the following question:
 
 [Name each main API or web scraping source, and note any supplementary static files.]
 no need of api key 
-
+"To ensure comparability across sectors, the analysis was restricted to the 2018–2025 period, where all companies had available SEC XBRL data for the selected financial concepts."
 ## How to reproduce
 
 [Tell your reader how to get keys, which python commands to run and any other things they need to know when replicating your work (imagine they are people with similar technical skills as yours)]

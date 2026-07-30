@@ -40,4 +40,4 @@ The analysis shows that growth strategies are not determined only by sector. Som
 
 Sector comparisons are useful for identifying broad patterns, but company-specific strategies explain the biggest differences in how firms invest, generate cash, and grow.
 
-*Full analysis and evidence: [NB03 – Data Analysis](../notebooks/NB03-silyzch-Data-Analysis.ipynb)*
+*Full analysis and evidence: [NB03 – Data Analysis](https://github.com/silyzch/me204-final-project/blob/main/notebooks/NB03-silyzch-Data-Analysis.ipynb)*

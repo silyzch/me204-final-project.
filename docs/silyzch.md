@@ -5,6 +5,7 @@ Companies can grow in different ways: by investing in research and new products,
 This analysis compares nine US companies across Technology, Healthcare, and Energy from 2018 to 2024. The results show that growth strategies depend not only on sector, but also on each company's business model.
 
 ![Average free cash flow margin by company](images/fcf_margin_avg.png)
+
 ![Free cash flow margin trend by company, 2018–2024](images/fcf_margin_trend.png)
 ## 1. The ability to fund growth depends more on the company than the sector
 

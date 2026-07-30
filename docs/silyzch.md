@@ -1,4 +1,3 @@
-# ME204 Final Project
 # How Do Companies Fund Growth? Comparing Technology, Healthcare, and Energy
 
 Companies can grow in different ways: by investing in research and new products, using cash generated from operations, or investing in physical assets and infrastructure.

@@ -24,3 +24,4 @@ no need of api key
 
 [Tell your reader how to get keys, which python commands to run and any other things they need to know when replicating your work (imagine they are people with similar technical skills as yours)]
 
+"The completeness check identified missing observations mainly in R&D and some revenue/capex concepts. These gaps reflect differences in financial reporting practices across industries. Companies with missing R&D values were retained because the absence of reported R&D is itself related to sector characteristics."

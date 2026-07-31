@@ -24,18 +24,27 @@ Nine companies are covered, three per sector:
 
 No supplementary static datasets were used; all financial data comes directly from the API.
 
-To ensure comparability across sectors, the analysis was restricted to the 2018–2024 period, where all nine companies had available data for the selected financial concepts.
+To ensure comparability across sectors, the analysis is from 2018–2024 period, where all nine companies had available data for the selected financial concepts.
 
 ## How to reproduce
 
-1. Clone the repository and `cd` into it.
-2. Create a virtual environment and install dependencies:
-```bash
-   python -m venv venv
-   source venv/bin/activate      # Windows: venv\Scripts\activate
-   pip install -r requirements.txt
-```
+1. Clone the repository.
+2. Install the required packages using
+requirements.txt.
+
 3. The SEC User-Agent header is set directly in the first code cell of NB01
    (`HEADERS = {"User-Agent": "..."}`). Replace the placeholder with your own
    name and email before running the notebook, as SEC requires a real contact
    identifier in this header.
+
+4. Run the notebooks in order:
+
+- NB01-Data-Collection.ipynb
+- NB02-Data-Transformation.ipynb
+- NB03-silyzch-Data-Analysis.ipynb
+
+
+
+## Output
+
+The published analysis, including all three findings and their supporting charts, is available at [https://silyzch.github.io/me204-final-project/](https://silyzch.github.io/me204-final-project/), linked from `docs/index.md`.

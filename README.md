@@ -20,11 +20,11 @@ Nine companies are covered, three per sector:
 
 ## Data sources
 
-**Main source:** [SEC EDGAR Company Facts API](https://www.sec.gov/edgar/sec-api-documentation) — a public API providing structured XBRL financial data (revenue, R&D, capex, cash flow, etc.) reported by every US-listed company. No API key is required, but SEC requests require a `User-Agent` header identifying the requester (name and email).
+**Main source:** [SEC EDGAR Company Facts API](https://www.sec.gov/edgar/sec-api-documentation) — a public API providing XBRL financial data (revenue, R&D, capex, cash flow, etc.) reported by every US-listed company. No API key is required, but SEC requests require a `User-Agent` header identifying the requester (name and email).
 
 No supplementary static datasets were used; all financial data comes directly from the API.
 
-To ensure comparability across sectors, the analysis was restricted to the 2018–2024 period, where all nine companies had available SEC XBRL data for the selected financial concepts.
+To ensure comparability across sectors, the analysis was restricted to the 2018–2024 period, where all nine companies had available data for the selected financial concepts.
 
 ## How to reproduce
 
@@ -35,4 +35,7 @@ To ensure comparability across sectors, the analysis was restricted to the 2018�
    source venv/bin/activate      # Windows: venv\Scripts\activate
    pip install -r requirements.txt
 ```
-3. Copy `.env.example` to `.env` and fill in your own contact details (no SEC API key is required — this is only used to build the request header SEC asks for):
+3. The SEC User-Agent header is set directly in the first code cell of NB01
+   (`HEADERS = {"User-Agent": "..."}`). Replace the placeholder with your own
+   name and email before running the notebook, as SEC requires a real contact
+   identifier in this header.
